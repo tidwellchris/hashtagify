@@ -2,11 +2,16 @@
 
 `$ git clone https://github.com/txb3flf/hashtagify`
 
+`$ git checkout -b persons-name`
+
 `$ cd hashtagify`
 
 `$ npm i`
 
 `$ npm run test`
+
+
+CHECKIN THE BRANCH AFTER YOU HAVE COMPLETED
 
 # Interview
 
@@ -20,7 +25,7 @@ You have an existing implemention of a program which converts inputs to hashtags
 
 It has passing unit tests.
 
- You are to look at the tests and for each test: 
+You are to look at the tests and for each test: 
 
 * Say what code in the application is tested by the test
 * Make any improvements to that particular code block __optimizing for readability__

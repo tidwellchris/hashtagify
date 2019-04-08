@@ -61,8 +61,44 @@ describe('Hashtag', () => {
 
                 expect(actual).toContain('PleaseHaveSomeCapitalLetters')
             })
+            
+      // test("should uppercase the first character if there are no leading spaces", () => {
+      //   const expected = "#HomeDepot"
+      //   const input = "home" + " ".repeat(140) + "depot";
 
+      //   const actual = new Hashtag(input).generate();
 
+      //   expect(actual).toContain(expected);
+
+      // })
+
+      // test("should return false if the final word is over 140 characters", () => {
+      //   const expected = false;
+      //   const input = "Looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooong Cat";
+
+      //   const actual = new Hashtag(input).generate();
+
+      //   expect(actual).toEqual(expected);
+      // });
+
+      //  test("should return an output if the final word is equal to 140 characters and uppercase the first character", () => {
+      //   const input = "a".repeat(139);
+      //   const ouput = "#A" + "a".repeat(138);
+
+      //   const actual = new Hashtag(input).generate();
+
+      //   expect(actual).toEqual(output);
+      // });
+
+      //  test("should return false Too Long if the final word is over to 140 characters", () => {
+      //  const error = false;
+      //  const expected = error + ", Too Long";
+      //  const input = "a".repeat(140);
+
+      //  const actual = new Hashtag(input).generate();
+
+      //  expect(actual).toEqual(expected);
+      // });
         })
     });
 });
